@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "BettingSystem.Controllers.BetController",
+    "Method": "AddBet",
+    "RelativePath": "Bet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bet",
+        "Type": "BettingSystem.Models.Bet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BettingSystem.Controllers.BetController",
+    "Method": "Shutdown",
+    "RelativePath": "Bet/shutdown",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BettingSystem.Controllers.BetController",
+    "Method": "GetSummary",
+    "RelativePath": "Bet/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

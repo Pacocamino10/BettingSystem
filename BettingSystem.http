@@ -1,0 +1,6 @@
+@BettingSystem_HostAddress = http://localhost:5263
+
+GET {{BettingSystem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
